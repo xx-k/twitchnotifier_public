@@ -1,0 +1,3 @@
+@cls
+@Echo Removing from Startup folder...
+@if exist "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\TwitchApplication.exe" rm -f "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup\TwitchApplication.exe"
